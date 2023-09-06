@@ -3,7 +3,7 @@ include_once "conn.php";
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get user input from the form
+  
     $name = $_POST['name'];
     $age = $_POST['age'];
     $gender = $_POST['gender'];
